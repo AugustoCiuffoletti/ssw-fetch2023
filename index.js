@@ -9,11 +9,11 @@ const URL = base + '/' + op + '?key=' + key;
 console.log(URL);
 fetch(URL)
   .then(
-    (response) => response.json(),
+    (response) => response.json(), // parsing per avere la stringa
     (error) => alert(error)
   )
   .then((data) => {
     console.log(data);
-    const db = JSON.parse(data);
+    const db = JSON.parse(data); // parsing er avere l'array
     console.log(db);
   });
