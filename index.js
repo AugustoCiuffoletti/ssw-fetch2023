@@ -14,6 +14,6 @@ fetch(URL)
   )
   .then((data) => {
     console.log(data);
-    const db = JSON.parse(data); // parsing er avere l'array
+    const db = JSON.parse(data); // parsing per avere l'array
     console.log(db);
   });
