@@ -3,7 +3,7 @@ import './style.css';
 const base =
   'https://eu-central-1.aws.data.mongodb-api.com/app/kvaas-giwjg/endpoint';
 const op = 'get';
-const key = '3bfb3112';
+const key = '10ff9757';
 
 const URL = base + '/' + op + '?key=' + key;
 console.log(URL);
